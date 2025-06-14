@@ -1,18 +1,45 @@
-# React + Vite
+Project Description: JEE/NEET Online Exam Portal
+JEE/NEET Online Exam Simulator is a full-stack web application that replicates the real-world online exam interface used in national-level entrance exams like JEE and NEET. The project is designed to provide students with a realistic practice environment that mirrors the actual exam experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Secure student login/signup (with enrollment number and name)
 
-Currently, two official plugins are available:
+Auto-start timer when exam begins
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No scrolling allowed beyond the current viewport (imitates locked layout)
 
-## Expanding the ESLint configuration
+Question navigation panel with color-coded status:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Green: Answered
 
-## 🧑‍💻 Author
+Red: Incorrect
 
-Made with ❤️ by [Divya Raval](https://github.com/DivyaRaval1909)
+Gray: Unattempted
 
+Answer selection lock: prompts "Are you sure?" before final submission (optional)
+
+Auto-save of answers
+
+Submit confirmation dialog before ending the test
+
+Result summary page (includes pie chart, negative marking, total score)
+
+Student details: Name, enrollment number, attempts, correct/incorrect breakdown
+
+Tech Stack
+Frontend: React.js
+
+Styling: Inline CSS with Flexbox and CSS Grid (Inter font, clean UI)
+
+State Handling: useState, useEffect
+
+Deployment: Vercel
+
+(Optional: Firebase for authentication and result storage)
+
+Live Demo
+https://your-app-name.vercel.app
+
+Author
+Made by Divya Raval
 © 2025 Divya Raval. All rights reserved.
